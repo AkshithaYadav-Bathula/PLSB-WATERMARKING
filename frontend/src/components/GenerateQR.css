@@ -1,0 +1,22 @@
+.generate-qr-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: a20px;
+  }
+  
+  .preview-image {
+    max-width: 300px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preview-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
